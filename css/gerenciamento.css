@@ -1,0 +1,21 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.5em;
+    width: calc(100%/3);
+}
+.image-wrapper{
+    height: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}

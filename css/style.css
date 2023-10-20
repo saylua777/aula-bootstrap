@@ -1,0 +1,28 @@
+*{
+    flex-wrap: wrap;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+ul {
+    list-style: none;
+}
+
+section li {
+    display: inline-block;
+
+}
+
+ img {
+    display: block;
+    margin: auto;
+}
