@@ -1,5 +1,8 @@
+/********* tela adm*********/
 *{
     flex-wrap: wrap;
+    margin: 0%;
+    
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -25,4 +28,39 @@ section li {
  img {
     display: block;
     margin: auto;
+}
+/********* tela gerenciamento*********/
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.5em;
+    width: calc(100%/3);
+}
+.image-wrapper{
+    height: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/********* tela add promoção*********/
+#cabecalho{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #B1EFE8;
+    box-sizing: border-box;
+    height: 200px;
+}
+#imgex{
+    position: absolute;
+    width:257px;
+    height:100px;
 }
