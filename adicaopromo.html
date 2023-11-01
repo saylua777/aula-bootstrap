@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +15,33 @@
 <body>
     <header id="cabecalho">
 
-        <img src="imag/logo maior sem fundo 2.png" id="imgex" alt="Exmed" >
-        <nav>
-            <a href=""></a>
-        </nav>
+        <a href="telaadm.html"><img src="imag/logo maior sem fundo 2.png" id="imgex" alt="Exmed" /></a>
 
     </header>
+    <form action="dados.html" method="post">
+        <section id="formulario">
+            <h3>Adicionando promoção</h3>
+            <div id="npk1">
+                <label>Nome da promoção * : </label><input type="text" name="nomepromocao" size="70">
+                <br>
+                <label>Data de início * : </label><input type="date">
+                <label>Data de término * : </label><input type="date">
+                <br>
+                <label>Descrição: </label>
+                <br>
+                <textarea style="width: 790px;"></textarea>
+                <br>
+                <label>Qtd. mínima de pontos * : </label><input type="number" required="" name="quantidademinima">
+                <br>
+                <label>Meta de participantes * : </label><input type="number" required="" name="metadeparticipantes">
+                <br>
+                <div id="botoes">
+                    <input type="submit" value="Voltar">
+                    <input type="submit" value="Concluído">
+                </div>
+            </div>
+        </section>
+    </form>
 </body>
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>

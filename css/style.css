@@ -1,20 +1,16 @@
-/********* tela adm*********/
-*{
-    flex-wrap: wrap;
-    margin: 0%;
-    
-}
+/********* tela adm- Rayane*********/
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #fafafa;
 
 }
 
-.row{
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 ul {
     list-style: none;
@@ -25,42 +21,61 @@ section li {
 
 }
 
- img {
-    display: block;
+img {
+    /*display: block;*/
     margin: auto;
+    align: left;
 }
+
 /********* tela gerenciamento*********/
-body {
-    font-family: "Poppins", sans-serif;
+
+.btn-outline{
     background-color: #fafafa;
+    color: #26BAA9;
+    padding: 5px 8px;
+    border: 1px #26BAA9;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .4s ease;
+    margin: 10px;
 }
-.cards-wrapper{
-    display: flex;
+.btn-outline:hover{
+    background-color: #26BAA9;
+    color:#fafafa;
 }
-.card{
-    margin: 0.5em;
-    width: calc(100%/3);
+.btn-outline:focus{
+    background-color: #26BAA9;
+    color:#fafafa;
 }
-.image-wrapper{
-    height: 22vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.image-wrapper img{
-    max-width: 100%;
-    max-height: 100%;
-}
+
 /********* tela add promoção*********/
-#cabecalho{
+#cabecalho {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     background: #B1EFE8;
-    box-sizing: border-box;
     height: 200px;
 }
-#imgex{
-    position: absolute;
-    width:257px;
-    height:100px;
+
+#imgex {
+    position: left;
+    width: 257px;
+    height: 100px;
+}
+
+#formulario {
+    
+    /*border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: #fafafa;*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+
+}
+
+#botoes {
+    text-align: right;
+    margin-top: 20px;
 }
