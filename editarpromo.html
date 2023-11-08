@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>editar promocao</title>
+</head>
+<body>
+    <header>
+        <img src="imag/elementodeco.png" alt="logo da empresa" class="background-image">
+    </header>
+    <div class="container">
+        <form>
+            <div class="header">
+                <h3>Editar Promoção</h3>
+                <label for="status" class="status-label">Status:</label>
+                <img src="imag/bolinha.svg" alt="bolinhadodesativado" class="bolinha">
+                <span class="status-text">Desativada</span>
+            </div>
+            <div class="input-group">
+                <label for="name">Nome da promoção *</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <br><br>
+            <div class="date-container">
+                <div class="start-date">
+                    <label for="start-date">Data de início *</label>
+                    <input type="date" id="start-date" name="start-date">
+                </div>
+                <div class="end-date">
+                    <label for="end-date">Data de término *</label>
+                    <input type="date" id="end-date" name="end-date">
+                </div>
+        </div> 
+            <label for="description">Descrição</label>
+            <textarea id="description" name="description" rows="10" cols="50"></textarea>
+            <br><br>
+            <div class="button-container">
+            <button type="submit" class="btn">Voltar</button>
+            <button type="submit" class="next-btn">Próximo</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

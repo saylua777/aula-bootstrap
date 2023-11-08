@@ -1,53 +1,55 @@
-/********* tela adm- Rayane*********/
-
+/********* tela gerenciamento*********/
 body {
     font-family: "Poppins", sans-serif;
     background-color: #fafafa;
 
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    list-style: none;
-}
-
-section li {
-    display: inline-block;
-
-}
-
-img {
-    /*display: block;*/
-    margin: auto;
-    align: left;
-}
-
-/********* tela gerenciamento*********/
-
-.btn-outline{
+.btn-outline {
     background-color: #fafafa;
     color: #26BAA9;
     padding: 5px 8px;
     border: 1px #26BAA9;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 25px;
     transition: all .4s ease;
     margin: 10px;
 }
-.btn-outline:hover{
+
+.btn-outline:hover {
     background-color: #26BAA9;
-    color:#fafafa;
+    color: #fafafa;
 }
-.btn-outline:focus{
+
+.btn-outline:focus {
     background-color: #26BAA9;
-    color:#fafafa;
+    color: #fafafa;
 }
+
+.npk1 {
+   background: #FFF;
+    text-align: left;
+    top: 0;
+    left: 2px; /* Aumente a margem esquerda */
+    width: 770px;
+    height: 600px;
+    border: 1px solid #606060;
+    border-radius: 40px;
+}
+
+/************************tela inicial********************/
+
+#dropdownMenuButton {
+    background-color: #26BAA9;
+    text-align: center;
+
+}
+.form-group{
+    margin: 10px;
+  
+}
+
 
 /********* tela add promoção*********/
 #cabecalho {
@@ -63,17 +65,6 @@ img {
     height: 100px;
 }
 
-#formulario {
-    
-    /*border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    background-color: #fafafa;*/
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    
-
-}
 
 #botoes {
     text-align: right;
